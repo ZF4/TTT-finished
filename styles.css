@@ -1,0 +1,40 @@
+#board {
+    padding: 3em;
+    text-align: center;
+    color: red;
+
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    font-size: larger;
+}
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 303px;
+
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+.bottom {
+    border-top: 1px black solid;
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+.row :hover {
+    cursor: pointer;
+}
